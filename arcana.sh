@@ -5,9 +5,9 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 
 # build rom
 source build/envsetup.sh
-lunch aosp_rosy-userdebug
+lunch aosp_f5321-userdebug
 export TZ=Asia/Jakarta
-export BUILD_USERNAME=rosy
+export BUILD_USERNAME=f5321
 export BUILD_HOSTNAME=userngebug
 make bacon
 
