@@ -8,10 +8,10 @@ git clone https://github.com/ExplosiveLobster/kernel_sony_msm-4.9/ kernel/sony/k
 
 # build rom
 source build/envsetup.sh
-lunch spark_rosy-userdebug
+lunch aosp_f5321-eng
 export TZ=Asia/Jakarta
 export BUILD_USERNAME=rosy
 export BUILD_HOSTNAME=userngebug
-mka bacon
+mka -k 
 
 # end
