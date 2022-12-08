@@ -9,6 +9,6 @@ lunch aosp_f5321-userdebug
 export TZ=Asia/Jakarta
 export BUILD_USERNAME=f5321
 export BUILD_HOSTNAME=userngebug
-make bacon
+make -k
 
 # end
